@@ -21,4 +21,9 @@ a {
     font-family: 'Oswald';
     margin: 15px 8%;
     color:white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
