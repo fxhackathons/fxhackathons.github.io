@@ -13,13 +13,17 @@ h1 {
     margin: 15px;
     float:left;
 }
-#guide {
+nav {
     position: relative;
     top: 25px;
     word-spacing: 2;
 }
 a {
     font-family: 'Oswald';
-    margin: 15px 20px;
+    margin: 1git5px 20px;
     color:white;
+}
+
+.link {
+    target:"_blank";
 }
