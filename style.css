@@ -1,0 +1,24 @@
+header {
+    background-image: url("/back.png");
+    height:80px;
+}
+img {
+    float: left;
+    height: 60px;
+    margin: 10px;
+}
+h1 {
+    font-family: 'Oswald';
+    color: #68F0A5;
+    margin: 15px;
+    float:left;
+}
+#guide {
+    position: relative;
+    top: 25px;
+}
+a {
+    font-family: 'Oswald';
+    margin: 15px 20px;
+    color:white;
+}
