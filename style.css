@@ -1,5 +1,5 @@
 header {
-    background-image: url("/back.png");
+    background-image: url("assets/back.png");
     height:80px;
 }
 img {
@@ -16,6 +16,7 @@ h1 {
 #guide {
     position: relative;
     top: 25px;
+    word-spacing: 2;
 }
 a {
     font-family: 'Oswald';
