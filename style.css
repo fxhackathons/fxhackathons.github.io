@@ -16,14 +16,10 @@ h1 {
 nav {
     position: relative;
     top: 25px;
-    word-spacing: 2;
+    word-spacing: ;
 }
 a {
     font-family: 'Oswald';
-    margin: 1git5px 20px;
+    margin: 15px 8%;
     color:white;
-}
-
-.link {
-    target:"_blank";
 }
