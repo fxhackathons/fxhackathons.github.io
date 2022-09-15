@@ -26,6 +26,7 @@ a {
     margin: 15px 8%;
     color:white;
     text-decoration: none;
+    target: _blank;
 }
 
 a:hover {
@@ -42,4 +43,8 @@ a:hover {
 footer {
     background-image: url("assets/back.png");
     height:80px;
+}
+
+h2 {
+    color: white;
 }
