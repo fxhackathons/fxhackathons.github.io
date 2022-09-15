@@ -79,3 +79,6 @@ button:hover {
     text-decoration: underline;
     filter: none;
 }
+body {
+    margin:0;
+}
