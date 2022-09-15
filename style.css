@@ -6,7 +6,7 @@ header {
     background-image: url("assets/back.png");
     height:80px;
 }
-img {
+header > img {
     float: left;
     height: 60px;
     margin: 10px;
@@ -79,6 +79,42 @@ button:hover {
     text-decoration: underline;
     filter: none;
 }
+
 body {
     margin:0;
 }
+
+/* showcase.html */
+.project {
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+#titleblock {
+    width: 50%;
+    float: left;
+}
+#titleblock > h2 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: "Oswald";
+    float: left;
+}
+.project > p {
+    text-align: center;
+    font-family: 'Fira Code';
+}
+.icon {
+    width: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    filter: invert();
+}
+/*
+#ptemplate {
+    display: none;
+}
+*/
