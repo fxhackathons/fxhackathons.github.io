@@ -75,3 +75,8 @@ button {
     border-color: white;
     filter: drop-shadow(5px 5px 5px black);
 }
+
+button:hover {
+    text-decoration: underline;
+    filter: none;
+}
