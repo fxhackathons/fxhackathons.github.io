@@ -2,4 +2,4 @@
 
 Website for our school club, FX Hackathons.
 
-Contributors - Owen Zhang, Zaid Abdulameer, Mohit Bendale, Satvik Garimella
+Contributors - Owen Zhang, Zaid Abdulameer, Mohit Bendale, Ryan Lee

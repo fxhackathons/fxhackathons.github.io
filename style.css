@@ -1,11 +1,16 @@
 :root {
     --theme-color: #68F0A5;
 }
+body{
+    margin: 0;
+}
 
 header {
+    z-index: 1;
     background-image: url("assets/back.png");
     height:80px;
 }
+
 header > img {
     float: left;
     height: 60px;
@@ -39,11 +44,34 @@ a:hover {
     background-size: cover;
 }
 
+#frame {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+}
+
 footer {
     background-image: url("assets/back.png");
     height:80px;
     margin: 0px;
     padding: 0px;
+}
+
+#footerimage {
+    height: 50px;
+    margin: 15px 0px 15px 25px;
+    float: left;
+}
+
+footer > #email {
+    font-family: 'Oswald';
+    float: right;
+    font-style: italic;
+    position: relative;
+    color: white;
+    margin-right: 2%;
+    font-size: 28px;
+    margin-top: 20px;
 }
 
 #description {
@@ -80,14 +108,17 @@ button:hover {
     filter: none;
 }
 
-body {
+#form {
     margin:0;
 }
 
 /* showcase.html */
+#showcase {
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
 .project {
     overflow: auto;
-    background-color: rgba(0,0,0,0.9);
     color: white;
 }
 #titleblock {
@@ -101,7 +132,7 @@ body {
     font-family: "Oswald";
     float: left;
 }
-.project > p {
+p {
     text-align: center;
     font-family: 'Fira Code';
 }
@@ -113,6 +144,11 @@ body {
     display: block;
     filter: invert();
 }
+
+#formpage {
+    background-image: url("/assets/back2.png");
+}
+
 #form {
     position: relative;
     margin-left: auto;
@@ -136,14 +172,26 @@ body {
     float: left;
     margin: 8px;
 }
+.item > p {
+    text-align: left;
+}
 .item > h2 {
+    display: inline;
     width: fit-content;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
 }
 .wrapper {
     width: 100%;
     display: inline-grid;
     grid-template-columns: auto auto;
+}
+
+#explanation {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-family: 'Fira Code';
 }
