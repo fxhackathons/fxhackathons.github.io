@@ -170,7 +170,7 @@ p {
 }
 .item > img {
     float: left;
-    margin: 8px;
+    margin-right: 8px;
 }
 .item > p {
     text-align: left;
